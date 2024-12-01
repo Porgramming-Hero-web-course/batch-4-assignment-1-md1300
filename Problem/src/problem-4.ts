@@ -14,11 +14,13 @@ function calculateShapeArea(area: Circle | Rectangle) {
     if ('height' in area && 'weight' in area) {
         const result = area.height * area.weight
 
-        console.log(result)
+        // console.log(result)
+        return result
     }
     else {
         const result = Math.PI * area.radious;
-        console.log(result)
+        // console.log(result)
+        return result
     }
 }
 
