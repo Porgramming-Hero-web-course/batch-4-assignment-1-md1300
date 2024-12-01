@@ -3,7 +3,8 @@
 const numberArray: number[] = [1, 2, 3, 4, 5];
     function sumArray(numberArray: number[]) {
         const result = numberArray.reduce((totalNumber, number) => totalNumber + number, 0)
-        //    console.log(result)
+        console.log(result)
+        return result
     }
 
     sumArray(numberArray)
